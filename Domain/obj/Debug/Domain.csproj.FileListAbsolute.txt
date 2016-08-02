@@ -1,0 +1,11 @@
+D:\git\bisQueue\Domain\bin\Debug\Domain.dll
+D:\git\bisQueue\Domain\bin\Debug\Domain.pdb
+D:\git\bisQueue\Domain\bin\Debug\FluentNHibernate.dll
+D:\git\bisQueue\Domain\bin\Debug\Iesi.Collections.dll
+D:\git\bisQueue\Domain\bin\Debug\NHibernate.dll
+D:\git\bisQueue\Domain\bin\Debug\FluentNHibernate.pdb
+D:\git\bisQueue\Domain\bin\Debug\FluentNHibernate.xml
+D:\git\bisQueue\Domain\bin\Debug\Iesi.Collections.xml
+D:\git\bisQueue\Domain\bin\Debug\NHibernate.xml
+D:\git\bisQueue\Domain\obj\Debug\Domain.dll
+D:\git\bisQueue\Domain\obj\Debug\Domain.pdb
