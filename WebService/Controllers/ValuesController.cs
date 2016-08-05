@@ -11,9 +11,9 @@ namespace WebService.Controllers
   public class ValuesController : ApiController
   {
     // GET api/values
-    public List<Domain.Core.Entities.QueueItem> Get()
+    public List<Domain.Core.Entities.Base.QueueItemBase> Get()
     {
-      return Repository.Get<Domain.Core.Entities.QueueItem>().ToList();
+      return Repository.Get<Domain.Core.Entities.Base.QueueItemBase>().ToList();
     }
 
     // GET api/values/5
@@ -23,7 +23,7 @@ namespace WebService.Controllers
     }
 
     // POST api/values
-    public void Post([FromBody]Domain.Core.Entities.QueueItem value)
+    public void Post([FromBody]Domain.Core.Entities.Base.QueueItemBase value)
     {
       value.Save();
     }

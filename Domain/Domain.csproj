@@ -56,11 +56,16 @@
     <Compile Include="Core\Database\Environment.cs" />
     <Compile Include="Core\Database\Interceptor.cs" />
     <Compile Include="Core\Database\Mapping\Base\QueueItemBaseMap.cs" />
+    <Compile Include="Core\Database\Mapping\Base\ServiceBaseMap.cs" />
     <Compile Include="Core\Database\Mapping\QueueItemMap.cs" />
+    <Compile Include="Core\Database\Mapping\Service.cs" />
     <Compile Include="Core\Database\Repository.cs" />
     <Compile Include="Core\Entities\Base\Entity.cs" />
     <Compile Include="Core\Entities\Base\QueueItemBase.cs" />
+    <Compile Include="Core\Entities\Base\ServiceBase.cs" />
     <Compile Include="Core\Entities\QueueItem.cs" />
+    <Compile Include="Core\Entities\Service.cs" />
+    <Compile Include="Core\Enums\Status.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

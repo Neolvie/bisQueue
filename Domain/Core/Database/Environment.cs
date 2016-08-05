@@ -9,7 +9,8 @@ namespace Domain.Core.Database
   public class Environment
   {
     private const string ConnectionStringParamName = "FoodDataBase";
-    private const string DefaultConnectionString = @"workstation id=bisQueue.mssql.somee.com;packet size=4096;user id=techus_SQLLogin_1;pwd=az36955hgg;data source=bisQueue.mssql.somee.com;persist security info=False;initial catalog=bisQueue";
+    //private const string DefaultConnectionString = @"workstation id=bisQueue.mssql.somee.com;packet size=4096;user id=techus_SQLLogin_1;pwd=az36955hgg;data source=bisQueue.mssql.somee.com;persist security info=False;initial catalog=bisQueue";
+    private const string DefaultConnectionString = @"Data Source=NASTYA-NB\SQLEXPRESS;Initial Catalog=BISQUEUE;User ID=admin;Password=11111";
     private static string ConnectionString;
 
     private static ISessionFactory _sessionFactory;

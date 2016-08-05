@@ -2,22 +2,20 @@
 
 namespace Domain.Core.Database.Mapping.Base
 {
-  public class QueueItemBaseMap : ClassMap<Entities.Base.QueueItemBase>
+  public class ServiceBaseMap : ClassMap<Core.Entities.Base.ServiceBase>
   {
-    public QueueItemBaseMap()
+    public ServiceBaseMap()
     {
-      Table("Queue_Items");
+      Table("Services");
       DiscriminateSubClassesOnColumn("TypeGuid");
-
+      
       Id(x => x.Id);
       Map(x => x.TypeGuid).Column("TypeGuid").Not.Insert().Not.Update();
       Map(x => x.Status).Default("1");
       Map(x => x.Name);
       Map(x => x.Created).Default("getdate()").Not.Update();
 
-      Id(x => x.Id);
-      Map(x => x.PinCode);
-      References(x => x.Service);
+      Map(x => x.Duration);
     }
   }
 }

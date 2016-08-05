@@ -1,4 +1,7 @@
-﻿using Domain.Core.Database;
+﻿using System;
+using Domain.Core.Database;
+using Domain.Core.Enums;
+using Environment = Domain.Core.Database.Environment;
 
 namespace Domain.Core.Entities.Base
 {
@@ -28,6 +31,16 @@ namespace Domain.Core.Entities.Base
     /// Имя.
     /// </summary>
     public virtual string Name { get; set; }
+
+    /// <summary>
+    /// Статус записи.
+    /// </summary>
+    public virtual Status Status { get; set; }
+
+    /// <summary>
+    /// Дата создания.
+    /// </summary>
+    public virtual DateTime Created { get; set; }
 
     #endregion
 

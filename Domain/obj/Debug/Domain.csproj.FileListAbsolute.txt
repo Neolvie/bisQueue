@@ -9,3 +9,4 @@ D:\git\bisQueue\Domain\bin\Debug\Iesi.Collections.xml
 D:\git\bisQueue\Domain\bin\Debug\NHibernate.xml
 D:\git\bisQueue\Domain\obj\Debug\Domain.dll
 D:\git\bisQueue\Domain\obj\Debug\Domain.pdb
+D:\git\bisQueue\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
