@@ -40,7 +40,7 @@ namespace Domain.Core.Entities.Base
     /// <summary>
     /// Дата создания.
     /// </summary>
-    public virtual DateTime Created { get; set; }
+    public virtual DateTime? Created { get; set; }
 
     #endregion
 

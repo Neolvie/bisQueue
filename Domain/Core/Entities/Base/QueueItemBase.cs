@@ -8,7 +8,7 @@ namespace Domain.Core.Entities.Base
 {
   public abstract class QueueItemBase : Entity
   {
-    public virtual ServiceBase Service { get; set; }
+    public virtual Service Service { get; set; }
 
     public virtual int PinCode { get; set; }
   }
